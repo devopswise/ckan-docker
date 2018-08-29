@@ -2,7 +2,7 @@ FROM ckan/ckan:latest
 USER root
 
 RUN apt-get update -qq && apt-get install -y -qq --no-install-recommends \
-       python-pip git iputils-ping net-tools ssh vim pwgen apache2-utils
+       git telnet iputils-ping net-tools ssh vim pwgen apache2-utils
 
 #RUN pip install -U pip setuptools virtualenv
 
